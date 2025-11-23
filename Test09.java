@@ -11,7 +11,7 @@ public class Test09 {
             }
             System.out.println("输入合法，数字为：" + x);
         } catch (NegativeNumberException e) {
-            System.out.println("e.");
+            System.out.println(e.getMessage());
         } finally {
             scanner.close();
         }
